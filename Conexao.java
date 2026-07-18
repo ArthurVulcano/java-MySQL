@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 public class Conexao {
     public static Connection conectar() throws Exception {
     Properties propriedades = new Properties();
-    FileInputStream arquivo = new FileInputStream("");
+    FileInputStream arquivo = new FileInputStream("database.example.properties");
 
     propriedades.load(arquivo);
 
